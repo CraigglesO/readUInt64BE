@@ -8,7 +8,7 @@ In computing. The number 9,223,372,036,854,775,807, equivalent to the hexadecima
 
 value is interpreted and written as a signed integer.
 
-writeInt32BE(buf, [, offest])
+readInt32BE(buf, [, offest])
 * `buf <Buffer> Original buffer to edit or change`
 * `offset <Integer> Where to start writing. Must satisfy: 0 <= offset <= buf.length - 8`
 
