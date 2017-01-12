@@ -3,7 +3,7 @@ const Buffer = require('buffer').Buffer;
 
 // readInt32BE(value, number[, offest])
 
-function writeUInt64BE(buf, offset) {
+function readUInt64BE(buf, offset) {
   if (offset){
     buf = buf.slice(offset, offset + 8);
   }
@@ -20,7 +20,7 @@ function writeUInt64BE(buf, offset) {
   return solution;        // (value position 0 * 16^15) + (value position 1 * 16^14) + ... +  (value position 7 * 16^0)
 }
 
-module.exports = writeUInt64BE;
+module.exports = readUInt64BE;
 
 function getDecimal(hex) {
   switch (hex) {
