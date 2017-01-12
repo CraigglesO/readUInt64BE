@@ -24,7 +24,7 @@ const Buffer = require('buffer').Buffer;
 const writeUInt64BE = require('writeUInt64BE');
 const readUInt64BE = require('./readUInt64BE');
 
-// First example, writing to a buffer at the beginning of the buffer:
+// First example, read a buffer at the beginning of the buffer:
 
 let buf = new Buffer(8);
 
@@ -34,7 +34,7 @@ console.log(buf); // <Buffer 00 00 00 00 07 5b cd 15>
 let decimal = readUInt64BE(buf);
 console.log(decimal); // 123456789
 
-// Second example, writing to a buffer at an offset
+// Second example, read a buffer at an offset
 
 let buf2 = new Buffer(16);
 buf2.fill(0);

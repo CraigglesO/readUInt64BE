@@ -1,6 +1,6 @@
 {
   "name": "readuint64be",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Safely convert a 64 bit stream to a number",
   "main": "readUInt64BE.js",
   "scripts": {
