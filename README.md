@@ -1,5 +1,7 @@
 # readUInt64BE
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/CraigglesO/readUInt64BE.svg)](https://greenkeeper.io/)
+
 ### Safely read 64 Big Endian hex buffers
 
 Reads hex buffer at the specified offset with specified big endian format. Number should be a valid signed 64-bit integer.
